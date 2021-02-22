@@ -1,5 +1,4 @@
-Matthew Devaney's Power Apps Custom Functions</br></br>
-=============================================
+# Matthew Devaney's Power Apps Custom Functions</br></br>
 
 # Date Functions
 Functions that output a date value</br></br>
