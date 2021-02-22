@@ -7,20 +7,27 @@ Functions that output a date value</br></br>
 ## DateMonthEnd
 Find the last day of a month.</br></br>
 
-## DateYearEnd
-Find the last day of a month.</br></br>
+## DateMonthStart
+Find the first day of a month.</br></br>
+
+## DateNetWorkDays
+Find the number of work days between two dates.</br></br>
 
 ## DateWeekEnd
-Find the last day of a month.</br></br>
+Find the last day of a week.</br></br>
 
-## DateMonthStart
-Find the last day of a month.</br></br>
-
-## DateYearStart
+## DateWeekNum
 Find the last day of a month.</br></br>
 
 ## DateWeekStart
-Find the last day of a month.</br></br>
+Find the first day of a week.</br></br>
+
+## DateYearEnd
+Find the last day of a year.</br></br>
+
+## DateYearStart
+Find the first day of a year.</br></br>
+
 
 
 # Financial Functions
