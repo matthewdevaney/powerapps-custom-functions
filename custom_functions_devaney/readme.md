@@ -74,7 +74,7 @@ DateWeekEnd(StartDate [, AddYears])
 # Financial Functions
 </br></br>
 
-### PV
+## PV
 present value: the total amount that a series of future payments is worth now</br></br>
 ### Syntax
 PV(Rate, NPER, PMT [, FV])
@@ -84,7 +84,7 @@ PV(Rate, NPER, PMT [, FV])
 * FV: Optional
 </br></br>
 
-### FV
+## FV
 future value: a cash balance you want to attain after the last payment is made* 
 ### Syntax
 PV(Rate, NPER, PMT [, PV])
@@ -95,7 +95,7 @@ PV(Rate, NPER, PMT [, PV])
 </br></br>
 
 
-### PMT
+## PMT
 the payment made each period over the life of an investment</br></br>
 ### Syntax
 PV(Rate, NPER, PV [, FV])
@@ -105,7 +105,7 @@ PV(Rate, NPER, PV [, FV])
 * FV: Optional
 </br></br>
 
-### NPER
+## NPER
 the total number of payments for a loan
 the payment made each period over the life of an investment</br></br>
 ### Syntax
