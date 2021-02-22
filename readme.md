@@ -16,8 +16,8 @@ There are two ways to contribute to the project:
 
 Frequently Asked Questions
 -----------------
-Q: Can I submit a function someone else has already made?
-A: Yes, you can do this.  There is no rule about having duplicate functions.
+Q: Can I submit a function someone else has already made?<br>
+A: Yes, you can do this.  There is no rule about having duplicate functions.<br><br>
 
 
 
