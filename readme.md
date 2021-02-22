@@ -1,7 +1,7 @@
 Power Apps Custom Functions Library
 ===================================
 
-Power Apps now has the ability to create user-defined custom functions.  The purpose of this repo is for members of the Power Apps community to share their custom functions with each other<br/><br/>
+Did you know Power Apps now has the ability to create user-defined custom functions?  The purpose of this repo is for members of the Power Apps community to share their custom functions with each other.  Anyone can contribute by following the steps below.<br/><br/>
 
 
 
