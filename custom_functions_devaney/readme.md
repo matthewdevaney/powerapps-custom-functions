@@ -1,4 +1,5 @@
-# Matthew Devaney's Power Apps Custom Functions</br></br>
+# Matthew Devaney's Power Apps Custom Functions
+</br></br>
 
 # Date Functions
 Functions that output a date value</br></br>
@@ -22,7 +23,8 @@ Find the last day of a month.</br></br>
 Find the last day of a month.</br></br>
 
 
-# Financial Functions</br></br>
+# Financial Functions
+</br></br>
 
 ## PV
 present value: the total amount that a series of future payments is worth now</br></br>
