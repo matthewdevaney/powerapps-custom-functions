@@ -23,8 +23,10 @@ Current Contributors
 
 
 
+Meet Our Mascot Charlie
+------------------
 
-Nice Kitty!  Meow....
+Charlie is the mascot of our repo.  He likes long, cozy naps in the sun, watching the birds play and writing code that follows the DRY princple (don't repeat yourself).  Nice Kitty!  Meow....
 
 <ul> 
 <li>...A_A
