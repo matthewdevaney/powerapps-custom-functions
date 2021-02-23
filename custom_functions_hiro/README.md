@@ -167,16 +167,43 @@ Convert Length from specific unit to others
 - DecimalPoint - Number : Optional. Rounds converted value at given decimal point.
 
 ### Output
+Length() returns Table.
+User can get converted value by using LookUp function.
 
-|Path|Type|Description|
-|--|--|--|
-|Length( ).cm|Number|Converted length in centimeter unit|
-|Length( ).m|Number|Converted length in meter unit|
-|Length( ).km|Number|Converted length in kilometer unit|
-|Length( ).inch|Number|Converted length in inch unit|
-|Length( ).feet|Number|Converted length in foot unit|
-|Length( ).mile|Number|Converted length in mile unit|
+Example of response:
 
+```json
+[
+  {
+    "unit": "cm",
+    "value": 2000
+  },
+  {
+    "unit": "m",
+    "value": 20
+  },
+  {
+    "unit": "km",
+    "value": 0.02
+  },
+  {
+    "unit": "inch",
+    "value": 787.4015748031496
+  },
+  {
+    "unit": "feet",
+    "value": 65.61679790026247
+  },
+  {
+    "unit": "yard",
+    "value": 21.872265966754156
+  },
+  {
+    "unit": "mile",
+    "value": 0.012427454732996135
+  }
+]
+```
 <br/>
 
 
@@ -192,14 +219,7 @@ Convert Weight from specific unit to others
 - DecimalPoint - Number : Optional. Rounds converted value at given decimal point.
 
 ### Output
-
-|Path|Type|Description|
-|--|--|--|
-|Weight( ).g|Number|Converted weight in gram unit|
-|Weight( ).kg|Number|Converted weight in kilogram unit|
-|Weight( ).oz|Number|Converted weight in ounce unit|
-|Weight( ).lb|Number|Converted weight in pound unit|
-
+Same as Length
 <br/>
 
 ## Temperature
@@ -214,9 +234,4 @@ Convert Temperature from specific unit to others
 - DecimalPoint - Number : Optional. Rounds converted value at given decimal point.
 
 ### Output
-
-|Path|Type|Description|
-|--|--|--|
-|Temperature( ).F|Number|Converted temperature in Fahrenheit|
-|Temperature( ).C|Number|Converted temperature in Celsius|
-|Temperature( ).K|Number|Converted temperature in Kelvin|
+Same as Length
