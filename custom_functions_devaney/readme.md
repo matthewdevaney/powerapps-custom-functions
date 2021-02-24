@@ -117,6 +117,7 @@ YearFraction(StartDate, EndDate [,DayWeekStart])
 
 
 # Financial Functions
+functions that are used by accounting & finance
 </br></br>
 
 ## PV
