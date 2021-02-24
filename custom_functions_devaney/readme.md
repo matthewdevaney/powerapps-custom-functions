@@ -32,7 +32,7 @@ EndOfMonth(StartDate [, AddMonths])
 
 
 ## EndOfWeek
-Get the last day of a week.</br></br>
+Get the last day of a week.
 ### Syntax
 EndOfWeek(StartDate [, AddWeeks, DayWeekStart])
 * StartDate: Required
@@ -42,7 +42,7 @@ EndOfWeek(StartDate [, AddWeeks, DayWeekStart])
 
 
 ## EndOfYear
-Get the last day of a year.</br></br>
+Get the last day of a year.
 ### Syntax
 EndOfYear(StartDate [, AddYears])
 * StartDate: Required
@@ -51,7 +51,7 @@ EndOfYear(StartDate [, AddYears])
 
 
 ## NetWorkDays
-Find the number of work days between two dates.</br></br>
+Find the number of work days between two dates.
 ### Syntax
 NetWorkDays(StartDate, EndDate)
 * StartDate: Required
@@ -60,7 +60,7 @@ NetWorkDays(StartDate, EndDate)
 
 
 ## StartOfMonth
-Get the first day of a month.</br></br>
+Get the first day of a month.
 ### Syntax
 StartOfMonth(StartDate [, AddMonths])
 * StartDate: Required
@@ -69,7 +69,7 @@ StartOfMonth(StartDate [, AddMonths])
 
 
 ## StartOfQuarter
-Get the first day of a quarter.</br></br>
+Get the first day of a quarter.
 ### Syntax
 StartOfQuarter(StartDate [, AddQuarters])
 * StartDate: Required
@@ -78,7 +78,7 @@ StartOfQuarter(StartDate [, AddQuarters])
 
 
 ## StartOfWeek
-Get the first day of a week.</br></br>
+Get the first day of a week.
 ### Syntax
 StartOfWeek(StartDate [, AddWeeks, DayWeekStart])
 * StartDate: Required
@@ -97,7 +97,7 @@ StartOfYear(StartDate [, AddYears])
 
 
 ## WeekNumber
-Takes a date and returns a week number (1-54) that corresponds to the week of year.</br></br>
+Takes a date and returns a week number (1-54) that corresponds to the week of year.
 ### Syntax
 WeekNumber(StartDate [,DayWeekStart])
 * StartDate: Required
@@ -106,7 +106,7 @@ WeekNumber(StartDate [,DayWeekStart])
 
 
 ## YearFraction
-Calculates a decimal number representing the fraction of a year between two dates.</br></br>
+Calculates a decimal number representing the fraction of a year between two dates.
 ### Syntax
 YearFraction(StartDate, EndDate [,DayWeekStart])
 * StartDate: Required
@@ -120,7 +120,7 @@ YearFraction(StartDate, EndDate [,DayWeekStart])
 </br></br>
 
 ## PV
-present value: the total amount that a series of future payments is worth now</br></br>
+present value: the total amount that a series of future payments is worth now
 ### Syntax
 PV(Rate, NPER, PMT [, FV])
 * Rate: Required
@@ -130,7 +130,7 @@ PV(Rate, NPER, PMT [, FV])
 </br></br>
 
 ## FV
-future value: a cash balance you want to attain after the last payment is made* 
+future value: a cash balance you want to attain after the last payment is made.
 ### Syntax
 PV(Rate, NPER, PMT [, PV])
 * Rate: Required
@@ -141,7 +141,7 @@ PV(Rate, NPER, PMT [, PV])
 
 
 ## PMT
-the payment made each period over the life of an investment</br></br>
+the payment made each period over the life of an investment.
 ### Syntax
 PV(Rate, NPER, PV [, FV])
 * Rate: Required
@@ -152,7 +152,6 @@ PV(Rate, NPER, PV [, FV])
 
 ## NPER
 the total number of payments for a loan
-the payment made each period over the life of an investment</br></br>
 ### Syntax
 NPER(Rate, PMT, PV [, FV])
 * Rate: Required
