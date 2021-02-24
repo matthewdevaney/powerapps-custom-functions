@@ -1,3 +1,9 @@
+# Matthew Devaney's Function Library
+Functions that perform operations on a date value
+* [Date Functions](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#Date Functions)
+* [Financial Functions](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#Financial Functions)
+</br></br>
+
 # Date Functions
 Functions that perform operations on a date value
 * [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfQuarter)
@@ -118,17 +124,13 @@ YearFraction(StartDate, EndDate [,DayWeekStart])
 
 # Financial Functions
 functions that are used by accounting & finance
+* [FV](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#FV)
+* [PV](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#PV)
+* [NPER](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#NPER)
+* [PMT](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#PMT)
 </br></br>
 
-## PV
-present value: the total amount that a series of future payments is worth now
-### Syntax
-PV(Rate, NPER, PMT [, FV])
-* Rate: Required
-* NPER: Required
-* PMT: Required
-* FV: Optional
-</br></br>
+
 
 ## FV
 future value: a cash balance you want to attain after the last payment is made.
@@ -141,15 +143,16 @@ PV(Rate, NPER, PMT [, PV])
 </br></br>
 
 
-## PMT
-the payment made each period over the life of an investment.
+## PV
+present value: the total amount that a series of future payments is worth now
 ### Syntax
-PV(Rate, NPER, PV [, FV])
+PV(Rate, NPER, PMT [, FV])
 * Rate: Required
 * NPER: Required
-* PV: Required
+* PMT: Required
 * FV: Optional
 </br></br>
+
 
 ## NPER
 the total number of payments for a loan
@@ -157,6 +160,17 @@ the total number of payments for a loan
 NPER(Rate, PMT, PV [, FV])
 * Rate: Required
 * PMT: Required
+* PV: Required
+* FV: Optional
+</br></br>
+
+
+## PMT
+the payment made each period over the life of an investment.
+### Syntax
+PV(Rate, NPER, PV [, FV])
+* Rate: Required
+* NPER: Required
 * PV: Required
 * FV: Optional
 </br></br>
