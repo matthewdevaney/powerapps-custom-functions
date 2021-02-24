@@ -1,7 +1,7 @@
 # Matthew Devaney's Function Library
 Functions that perform operations on a date value
-* [Date Functions](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#Date Functions)
-* [Financial Functions](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#Financial Functions)
+* [Date Functions](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#Date_Functions)
+* [Financial Functions](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#Financial_Functions)
 </br></br>
 
 # Date Functions
