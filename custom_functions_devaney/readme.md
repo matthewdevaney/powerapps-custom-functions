@@ -1,9 +1,16 @@
 # Date Functions
 Functions that perform operations on a date value</br></br>
-
 - [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfQuarter)
 - [EndOfMonth](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfMonth)
-
+- [EndOfWeek](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfWeek)
+- [EndOfYear](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfYear)
+- [NetWorkDays](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#NetWorkDays)
+- [StartOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfQuarter)
+- [StartOfMonth](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfMonth)
+- [StartOfWeek](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfWeek)
+- [StartOfYear](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfYear)
+- [WeekNumber](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfYear)
+- [YearFrac](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#YearFrac)
 
 
 ## EndOfQuarter
