@@ -1,72 +1,106 @@
 # Date Functions
 Functions that perform operations on a date value</br></br>
 
-## DateMonthEnd
+
+## EndOfQuarter
+Get the last day of a quarter.
+### Syntax
+StartOfQuarter(StartDate [, AddQuarters])
+* StartDate: Required
+* AddQuarters: Optional
+</br></br>
+
+
+## EndOfMonth
 Get the last day of a month.
 ### Syntax
-DateMonthEnd(StartDate [, AddMonths])
+EndOfMonth(StartDate [, AddMonths])
 * StartDate: Required
 * AddMonths: Optional
 </br></br>
 
-## DateMonthStart
-Get the first day of a month.
+
+## EndOfWeek
+Get the last day of a week.</br></br>
 ### Syntax
-DateMonthStart(StartDate [, AddMonths])
+EndOfWeek(StartDate [, AddWeeks, DayWeekStart])
 * StartDate: Required
-* AddMonths: Optional
+* AddWeeks: Optional
+* DayWeekStart: Optional
 </br></br>
 
-## DateNetWorkDays
-Find the number of work days between two dates.
+
+## EndOfYear
+Get the last day of a year.</br></br>
 ### Syntax
-DateNetWorkDays(StartDate, EndDate)
+EndOfYear(StartDate [, AddYears])
+* StartDate: Required
+* AddYears: Optional
+</br></br>
+
+
+## NetWorkDays
+Find the number of work days between two dates.</br></br>
+### Syntax
+NetWorkDays(StartDate, EndDate)
 * StartDate: Required
 * EndDate: Required
 </br></br>
 
-## DateWeekEnd
-Get the last day of a week.</br></br>
-### Syntax
-DateWeekEnd(StartDate [, AddWeeks, DayWeekStart])
-* StartDate: Required
-* AddWeeks: Optional
-* DayWeekStart: Optional
-</br></br>
 
-## DateWeekNum
-Takes a date and returns a week number (1-54) that corresponds to the week of year
+## StartOfMonth
+Get the first day of a month.</br></br>
 ### Syntax
-DateWeekEnd(StartDate [,DayWeekStart])
+StartOfMonth(StartDate [, AddMonths])
 * StartDate: Required
-* DayWeekStart: Optional
+* AddMonths: Optional
 </br></br>
 
 
-## DateWeekStart
+## StartOfQuarter
+Get the first day of a quarter.</br></br>
+### Syntax
+StartOfQuarter(StartDate [, AddQuarters])
+* StartDate: Required
+* AddQuarters: Optional
+</br></br>
+
+
+## StartOfWeek
 Get the first day of a week.</br></br>
 ### Syntax
-DateWeekStart(StartDate [, AddWeeks, DayWeekStart])
+StartOfWeek(StartDate [, AddWeeks, DayWeekStart])
 * StartDate: Required
 * AddWeeks: Optional
 * DayWeekStart: Optional
 </br></br>
 
-## DateYearEnd
-Get the last day of a year.
+
+## StartOfYear
+Get the first day of a year.
 ### Syntax
-DateWeekEnd(StartDate [, AddYears])
+StartOfYear(StartDate [, AddYears])
 * StartDate: Required
 * AddYears: Optional
 </br></br>
 
 
-## DateYearStart
-Get the first day of a year.
+## WeekNumber
+Takes a date and returns a week number (1-54) that corresponds to the week of year.</br></br>
 ### Syntax
-DateWeekEnd(StartDate [, AddYears])
+WeekNumber(StartDate [,DayWeekStart])
 * StartDate: Required
-* AddYears: Optional
+* DayWeekStart: Optional
+</br></br>
+
+
+## YearFraction
+Calculates a decimal number representing the fraction of a year between two dates.</br></br>
+### Syntax
+YearFraction(StartDate, EndDate [,DayWeekStart])
+* StartDate: Required
+* EndDate: Required
+* Basis: Optional
 </br></br>
 
 
