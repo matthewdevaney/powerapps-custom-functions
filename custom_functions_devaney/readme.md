@@ -1,6 +1,10 @@
 # Date Functions
 Functions that perform operations on a date value</br></br>
 
+- [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney##EndOfQuarter)
+- [EndOfMonth](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney##EndOfMonth)
+
+
 
 ## EndOfQuarter
 Get the last day of a quarter.
