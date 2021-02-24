@@ -25,8 +25,9 @@ Current Contributors
 ------------
 * Hiro Nagao (<a href="https://twitter.com/mofumofu_dance">@mofumofudance</a>)
 * Matthew Devaney (<a href="https://twitter.com/mattbdevaney">@mattbdevaney</a>)
-* Sancho Harker (<a href="https://twitter.com/iam_Mancat">@IAm_ManCat</a>)<br/><br/>
-
+* Sancho Harker (<a href="https://twitter.com/iam_Mancat">@IAm_ManCat</a>)
+* Geetha Sivasailam(<a href="https://twitter.com/GSiVed">@GSiVed</a>)
+<br/><br/>
 
 
 Meet Our Mascot Charlie
