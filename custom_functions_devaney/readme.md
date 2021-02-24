@@ -1,5 +1,5 @@
 # Date Functions
-Functions that perform operations on a date value</br></br>
+Functions that perform operations on a date value
 - [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfQuarter)
 - [EndOfMonth](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfMonth)
 - [EndOfWeek](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfWeek)
@@ -11,7 +11,7 @@ Functions that perform operations on a date value</br></br>
 - [StartOfYear](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfYear)
 - [WeekNumber](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#StartOfYear)
 - [YearFrac](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#YearFrac)
-
+</br></br>
 
 ## EndOfQuarter
 Get the last day of a quarter.
