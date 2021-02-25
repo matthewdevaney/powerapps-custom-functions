@@ -31,7 +31,7 @@ IsPercent(PercentTxt)
 
 
 ## IsTime
-Regex to validate time format [hh:mm:ss]/[h:m:s]/[mm:ss]/[m:s]/[ss]/[s]
+Regex to validate time format [hh:mm:ss]/[hr:min:sec]/[mm:ss]/[m:s]/[ss]/[s]
 ### Syntax
 IsTime(TimeTxt)
 * TimeTxt: Required
