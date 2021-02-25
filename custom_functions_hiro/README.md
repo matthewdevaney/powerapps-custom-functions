@@ -4,6 +4,7 @@
 - [GeoUtils](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#geoutils)
 - [UnitCnvt](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#unitcnvt)
 - [StatUtils](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#statutils)
+- [MathUtils](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#mathutils)
 
 # ColorUtils
 
@@ -293,3 +294,41 @@ Returns histogram in given Bin range.
 
 ### Output
 Table with columns "data" and "freq".
+
+<br/>
+
+# MathUtils
+
+## RANDARRAY
+Returns random number array.
+
+### Syntax
+
+**RANDARRAY**( *rows*, *min*, *max*, *IsInteger* )
+
+- rows - Number : Required. Length of array.
+- min - Number : Required. 
+- max - Number : Required.
+- IsInteger - Boolean : Optional. If *true*, function returns random integer numbers.
+
+### Output
+Table with columns "Value".
+<br/>
+
+## RandPwd
+Generates random password string with user specified condition.
+
+### Syntax
+
+**RandPwd**( *Uppercase*, *Lowercase*, *Number*, *Symbol*, *PasswordLength*, *AllowedSymbols* )
+
+- Uppercase - Boolean : Required.
+- Lowercase - Boolean : Required.
+- Number - Boolean : Required.
+- Symbol - Boolean : Required.
+- PasswordLength - Number : Required.
+- AllowedSymbols - Text : Optional. Allowed symbols (e.g. `![]$@()./`)
+
+### Output
+Random Password text.
+
