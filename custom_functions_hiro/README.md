@@ -3,7 +3,7 @@
 - [ColorUtils](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#colorutils)
 - [GeoUtils](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#geoutils)
 - [UnitCnvt](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#unitcnvt)
-
+- [StatUtils](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_hiro#statutils)
 
 # ColorUtils
 
@@ -235,3 +235,61 @@ Convert Temperature from specific unit to others
 
 ### Output
 Same as Length
+
+<br/>
+
+# StatUtils
+
+Statistics functions.
+
+## MODE
+Returns top N values in frequency order.
+
+### Syntax
+
+**MODE**( *InputTable*, *top* )
+
+- InputTable - Table : Required. The column name should be `Value` and each value is Number-type. (e.g. `Table({Value:1},...,{Value:2})` or `[3,4,....,13]`)
+- top - Number (Positive integer) : Required. 
+
+### Output
+Table with columns "value" and "freq".
+
+## sMODE
+Returns top N values in frequency order. (For String array)
+
+### Syntax
+
+**MODE**( *InputTable*, *top* )
+
+- InputTable - Table : Required. The column name should be `Value` and each value is Text-type. (e.g. `Table({Value:"aaa"},...,{Value:"fff"})` or `["aaa",..,"fff"]`)
+- top - Number (Positive integer) : Required. 
+
+### Output
+Table with columns "value" and "freq".
+
+## Median
+Returns the median of the given numbers. The median is the number in the middle of a set of numbers.
+
+### Syntax
+
+**Median**( *InputTable*)
+
+- InputTable - Table : Required. The column name should be `Value` and each value is Number-type. (e.g. `Table({Value:1},...,{Value:2})` or `[4,...,8]`)
+
+### Output
+Number ( in the middle of a set of numbers).
+
+## Histogram
+Returns histogram in given Bin range.
+
+**Histogram**( *DataTable*, *start*, *step*, *count* )
+
+- DataTable - Table : Required. The column name should be `data` and each value is Number-type.
+- start - Number : Required. Lower value of first bin.
+- step - Number : Required. Gap between each bin.
+- count - Number : Required. Count of bins.
+
+
+### Output
+Table with columns "data" and "freq".
