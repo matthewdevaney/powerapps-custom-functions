@@ -13,7 +13,7 @@ This returns Decimal value of a Binary value.
 
 ### Syntax
 
-**HEX2RGB**( *Binary* )
+**BinaryToDecimal**( *Binary* )
 
 - Binary - Required. Type: Number. Binary value. (i.e. 1000001)
 
