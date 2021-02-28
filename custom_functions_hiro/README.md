@@ -168,43 +168,9 @@ Convert Length from specific unit to others
 - DecimalPoint - Number : Optional. Rounds converted value at given decimal point.
 
 ### Output
-Length() returns Table.
-User can get converted value by using LookUp function.
+Type: Record.
+Maker can access converted value by `UnitCnvt_1.Length(100,"m",2).inch` or so.
 
-Example of response:
-
-```json
-[
-  {
-    "unit": "cm",
-    "value": 2000
-  },
-  {
-    "unit": "m",
-    "value": 20
-  },
-  {
-    "unit": "km",
-    "value": 0.02
-  },
-  {
-    "unit": "inch",
-    "value": 787.4015748031496
-  },
-  {
-    "unit": "feet",
-    "value": 65.61679790026247
-  },
-  {
-    "unit": "yard",
-    "value": 21.872265966754156
-  },
-  {
-    "unit": "mile",
-    "value": 0.012427454732996135
-  }
-]
-```
 <br/>
 
 
