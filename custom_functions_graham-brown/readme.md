@@ -4,7 +4,7 @@ Coming soon.
 
 # Subheading Functions
 Functions that perform operations on a date value
-* [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_devaney#EndOfQuarter)
+* [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_graham-brown#EndOfQuarter)
 </br></br>
 
 ## EndOfQuarter
