@@ -4,10 +4,10 @@ Coming soon.
 
 # Subheading Functions
 Functions that perform operations on a list
-* [EndOfQuarter](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_graham-brown#EndOfQuarter)
+* [AddTopValue](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_graham-brown#AddTopValue)
 </br></br>
 
-## Add Top Value
+## AddTopValue
 Adds a value to a list of values ready to use in a drop down box. Returns a single column, named Result, table.
 ### Syntax
 AddTopValue(DataList [, TopValue])
