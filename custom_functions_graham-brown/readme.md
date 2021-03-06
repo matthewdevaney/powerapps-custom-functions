@@ -2,7 +2,7 @@
 Coming soon.
 </br></br>
 
-# Subheading Functions
+# List Functions
 Functions that perform operations on a list
 * [AddTopValue](https://github.com/yourekittenme/powerapps-custom-functions/tree/main/custom_functions_graham-brown#AddTopValue)
 </br></br>
